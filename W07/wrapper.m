@@ -21,4 +21,6 @@ image_cls_restored = cls_restoration(image_noisy, blur_impulse, alpha);
 figure; imshow(image_cls_restored, 'border', 'tight');
 
 %% computation of ISNR
-% ...
+noisy_psnr = 10 * log10(1 / (norm(image_original - image_noisy, 'fro') ^ 2 / H / W));
+restored_psnr = 10 * log10(1 / (norm(image_original - image_cls_restored, 'fro') ^ 2 / H / W));
+fprintf('For alpha=%.4f: ISNR = %f\n',alpha,restored_psnr-noisy_psnr);

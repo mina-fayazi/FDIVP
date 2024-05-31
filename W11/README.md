@@ -13,7 +13,8 @@ Which of the masks below can be used to detect 1-pixel gaps in these lines?
 
 
 # Question 2
-An edge profile is shown on the right. Which of the sketches below shows the Laplacian of the edge profile?  ![2 question](https://github.com/mina-fayazi/FDIVP/assets/132774606/5ac1b5c5-73cd-4b67-888c-bf819c8cbcce)
+An edge profile is shown on the right. Which of the sketches below shows the Laplacian of the edge profile?  
+![2 question](https://github.com/mina-fayazi/FDIVP/assets/132774606/5ac1b5c5-73cd-4b67-888c-bf819c8cbcce)
 
 
 **[-]**![2a](https://github.com/mina-fayazi/FDIVP/assets/132774606/dd837ff6-b77e-445a-817b-c0364b1249d0)

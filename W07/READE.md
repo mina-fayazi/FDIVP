@@ -7,7 +7,7 @@ Attempts: 100
 Which of the following options is not considered a stochastic restoration approach?
 
 **[-]** Wiener filter  
-**[-]** Constrained least-squares filter  
+**[X]** Constrained least-squares filter  
 **[-]** Maximum likelihood estimation  
 **[-]** Maximum a posteriori estimation  
 
@@ -16,7 +16,7 @@ Which of the following describes the "orthogonality principle" of Wiener filter?
 
 **[-]** E[f(i,j)−f&#770;(i,j)]=0  
 **[-]** E[f(i,j)−y(i,j)]=0  
-**[-]** E[(f(i,j)−f&#770;(i,j))y<sup>∗</sup>(k,l)]=0   
+**[X]** E[(f(i,j)−f&#770;(i,j))y<sup>∗</sup>(k,l)]=0   
 **[-]** E[(f(i,j)−y(i,j))f&#770;<sup>∗</sup>(k,l)]=0    
 
 
@@ -24,7 +24,7 @@ Which of the following describes the "orthogonality principle" of Wiener filter?
 (True/False) In general, the constrained least-squares restoration filter has better performance than the Wiener restoration filter.
 
 **[-]** True  
-**[-]** False  
+**[X]** False  
 
 
 #Question 4
@@ -32,7 +32,7 @@ In the Bayesian formulation, if p(f) denotes the image prior distribution, p(y|f
 
 **[-]** the joint distribution  
 **[-]** the likelihood  
-**[-]** the posterior distribution  
+**[X]** the posterior distribution  
 **[-]** the prior distribution  
 
 
@@ -42,15 +42,15 @@ Which of the following statements about the Bayesian formulation of image restor
 **[-]** Noise must have Gaussian distribution  
 **[-]** Maximum likelihood estimation maximizes the posterior distribution  
 **[-]** Maximum a posteriori estimation always results in closed-form solutions  
-**[-]** The total variation prior promotes piecewise smooth restored images  
+**[X]** The total variation prior promotes piecewise smooth restored images  
 
 
 #Question 6
 Which of the following options represent image restoration problems? Check all that apply.
 
-**[-]** Image super-resolution
-**[-]** Defocusing
-**[-]** Pansharpening
+**[X]** Image super-resolution
+**[X]** Defocusing
+**[X]** Pansharpening
 **[-]** Video compression
 **[-]** Contrast stretching
 
@@ -66,4 +66,4 @@ In this problem, you will implement the Constrained Least Squares (CLS) filter a
 
 4. After you complete the implementation of the CLS filter, you should run "wrapper.m" with different values of alpha. Specifically, we ask you to try the following values of alpha: {0.0001, 0.001, 0.01, 0.1, 1, 10, 100}. For each value of alpha, we ask you to compute the Improvement in SNR (ISNR). Note that the computation of ISNR involves there images: the original image, the blurred and noisy image, and the restored image. After you obtain the ISNR values, enter in the box below the largest ISNR value. Enter the number with at least two decimal points.
 
-**[-]** ?
+**[4.30]** ?

@@ -7,24 +7,24 @@ Attempts: 100
 (True/False) It is impossible to compress a signal without compromising its integrity.
 
 **[-]** True  
-**[-]** False  
+**[X]** False  
 
 
 # Question 2
 Signal compression is achieved due to the reduction in which of the following forms of redundancy? Check all that apply.
 
-**[-]** Temporal redundancy in signals  
-**[-]** Perceptual redundancy in signals (i.e., the presence of perceptually irrelevant information in signals)  
-**[-]** Coding redundancy (i.e., the inefficient use of bits in representing signals)  
-**[-]** Spatial redundancy in signals  
-**[-]** Spectral redundancy in signals  
+**[X]** Temporal redundancy in signals  
+**[X]** Perceptual redundancy in signals (i.e., the presence of perceptually irrelevant information in signals)  
+**[X]** Coding redundancy (i.e., the inefficient use of bits in representing signals)  
+**[X]** Spatial redundancy in signals  
+**[X]** Spectral redundancy in signals  
 
 
 # Question 3
 It is given that a discrete memoryless source (DMS) has alphabet S={a,b,c} with associated probabilities p(a)=0.2, p(b)=0.5 and p(c)=0.3. If the first two symbols emitted by the source are a and c, what is the probability of having a b emitted by the source as the third symbol?
 
 **[-]** 0.2  
-**[-]** 0.5  
+**[X]** 0.5  
 **[-]** 0.7  
 **[-]** 1  
 
@@ -32,7 +32,7 @@ It is given that a discrete memoryless source (DMS) has alphabet S={a,b,c} with 
 # Question 4
 Given a discrete memoryless source (DMS) with alphabet S={a,b,c} and associated probabilities p(a)=0.2, p(b)=0.5 and p(c)=0.3, what is the entropy of this source in unit of bits? Enter the answer to 3 decimal points.
 
-**[-]** ?
+**[1.486]**
 
 
 # Question 5
@@ -41,14 +41,14 @@ For a DMS with alphabet {a,b,c,d} and associated probabilities p(a)=0.6, p(b)=0.
 **[-]** 0  
 **[-]** 01  
 **[-]** 111  
-**[-]** 110  
+**[X]** 110  
 
 
 # Question 6
 Assume a DMS with alphabet {a,b,c} and associated probabilities p(a)=0.5, p(b)=0.3, and p(c)=0.2. A sequence of length 4 is encoded using arithmetic coding, and the encoded number (the tag) is equal to 0.386. In the encoding process, the following limits are used FX(1)=0.5, FX(2)=0.8, and FX(3)=1. Based on this information, which of the following is the encoded 4-symbol sequence
 
 **[-]** abca  
-**[-]** abcb  
+**[X]** abcb  
 **[-]** baca  
 **[-]** bbac  
 
@@ -62,4 +62,4 @@ In this problem, you will write a MATLAB program to compute the entropy of a giv
 
 (3) Compute the entropy using the formula that you have learned in class. Enter the result below to at least 2 decimal points.
 
-**[-]** ?
+**[7.10]**
